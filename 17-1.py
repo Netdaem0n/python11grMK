@@ -11,7 +11,6 @@ def F(n):
     if n > 0 and (n % 3) < 2:
         return F((n - n % 3) / 3)
 
-for i in range(0, 1000):
+for i in range(0, 10000):
     if F(i) == 5:
         print(i)
-        break
