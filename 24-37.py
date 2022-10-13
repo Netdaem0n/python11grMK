@@ -4,13 +4,8 @@
 # согласная + гласная.
 import re
 
-with open("24.txt", "r") as f:
+with open("24 (1).txt", "r") as f:
     data = f.read().strip("\n")
 
 print(data)
-
-
-
-#
-# data = data.replace("D", ":").replace("R", ":").split(":")
-# print(data, len(max(data)))
+# в задании приложен не правильный входной файл на сайте
